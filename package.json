@@ -1,0 +1,21 @@
+{
+  "name": "serverless-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./src"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa-router": "^7.4.4",
+    "@types/node": "^16.9.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-router": "^10.1.1",
+    "vm2": "^3.9.3"
+  }
+}
