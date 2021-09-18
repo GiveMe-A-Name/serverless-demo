@@ -4,12 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node ./src"
+    "start": "nodemon --config nodemon.json src/index.ts"
   },
   "devDependencies": {
     "@types/koa": "^2.13.4",
     "@types/koa-router": "^7.4.4",
     "@types/node": "^16.9.2",
+    "nodemon": "^2.0.12",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3"
   },
